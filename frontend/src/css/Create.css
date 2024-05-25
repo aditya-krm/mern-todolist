@@ -1,0 +1,31 @@
+#input{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+input[type="text"]{
+    width: 75%;
+    height: 4vh;
+    outline: none;
+    border: 1px solid rgba(0, 0, 0, 0.429);
+    border-radius: 5px;
+    margin: 1% 1% 1% 2%;
+    font-size: 1.1em;
+}
+#add{
+    width: 15%;
+    height: 4vh;
+    background-color: #000000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin: 1% auto;
+    cursor: pointer;
+    font-size: 1.1em;
+    font-weight: 600;
+    transition: 0.2s ease;
+}
+#add:hover{
+    background-color: #31a137;
+    transform: rotate(2deg);
+}

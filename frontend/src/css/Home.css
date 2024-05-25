@@ -1,0 +1,64 @@
+h1 {
+  margin: 0 0 0 4%;
+  color: #000000;
+}
+
+.main {
+  background-color: #ffffff5f;
+  border-radius: 15px;
+  width: 60%;
+  height: 90%;
+  margin: 0 auto;
+}
+h2{
+  text-align: center;
+}
+#todo {
+  border: 1px solid rgba(0, 0, 0, 0.079);
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.152);
+  width: 90%;
+  height: 5%;
+  margin: 1% auto;
+  font-size: 1.4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  margin: 7px;
+}
+
+#task {
+  text-align: center;
+  font-size: 1.4rem;
+}
+.done{
+    text-decoration: line-through;
+    color: #0000005f;
+}
+#todo button {
+  width: 10%;
+  height: 90%;
+  border-radius: 10px;
+  margin-left: auto;
+  background-color: rgba(255, 0, 0, 0.764);
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+#todo button:hover {
+  background-color: rgba(255, 0, 0, 0.9);
+}
+@media screen and (max-width: 768px) {
+  .main {
+    width: 100%;
+  }
+
+  #todo {
+    width: 95%;
+  }
+}

@@ -1,0 +1,8 @@
+body{
+  color: rgb(0, 0, 0);
+  background-color: #568fb090;
+}
+#root{
+  width: 100%;
+  height: 100vh;
+}
