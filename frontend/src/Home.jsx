@@ -52,23 +52,25 @@ function Home() {
       <h1>TodoList</h1>
       <div className="main">
         <Create addTask={addTask} />
-        {todos.length === 0 ? (
-          <h2>No todos</h2>
-        ) : (
-          todos.map((todo, index) => (
-            <div id="todo" key={index}>
-              <input
-                type="checkbox"
-                checked={todo.done}
-                onClick={() => updateTask(todo._id, todo.done)}
-              />
-              <span className={todo.done ? "done" : ""} id="task">
-                {todo.task}
-              </span>
-              <button onClick={() => deleteTask(todo._id)}>Delete</button>
-            </div>
-          ))
-        )}
+        <div className="task-container">
+          {todos.length === 0 ? (
+            <h2>No todos</h2>
+          ) : (
+            todos.map((todo, index) => (
+              <div id="todo" key={index}>
+                <input
+                  type="checkbox"
+                  checked={todo.done}
+                  onClick={() => updateTask(todo._id, todo.done)}
+                />
+                <span className={todo.done ? "done" : ""} id="task">
+                  {todo.task}
+                </span>
+                <button onClick={() => deleteTask(todo._id)}>Delete</button>
+              </div>
+            ))
+          )}
+        </div>
       </div>
     </>
   );

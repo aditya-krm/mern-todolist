@@ -26,6 +26,5 @@ input[type="text"]{
     transition: 0.2s ease;
 }
 #add:hover{
-    background-color: #31a137;
-    transform: rotate(2deg);
+    background-color: #56833a;
 }

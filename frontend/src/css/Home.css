@@ -9,6 +9,7 @@ h1 {
   width: 60%;
   height: 90%;
   margin: 0 auto;
+  overflow: hidden;
 }
 h2{
   text-align: center;
@@ -31,7 +32,11 @@ input[type="checkbox"] {
   height: 20px;
   margin: 7px;
 }
-
+.task-container{
+  width: 100%;
+  height: 91%;
+  overflow-y: scroll;
+}
 #task {
   text-align: center;
   font-size: 1.4rem;
@@ -41,7 +46,7 @@ input[type="checkbox"] {
     color: #0000005f;
 }
 #todo button {
-  width: 10%;
+  width: 15%;
   height: 90%;
   border-radius: 10px;
   margin-left: auto;

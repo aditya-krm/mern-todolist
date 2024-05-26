@@ -6,8 +6,7 @@ The MERN TodoList app is a full-stack web application built using the MERN (Mong
 
 ## Table of Contents
 
-- [Installation](#Installation)
-- [Usage](#Usage)
+- [Installation](#Installation)s
 - [Features](#Features)
 - [learning-outcomes](#learning-outcomes)
 - [project-structure](#project-structure)
@@ -31,21 +30,13 @@ To run this project locally, follow these steps:
    ```
 
 2. **Install dependencies:**
-   For the first time, you need to run the following command install and run the project by just one command:
+   only need to run the command it will install all the dependencies for frontend and backend.
 
 ```bash
-npm run Firststart
+npm run install:all
 ```
 
-3. Start the MongoDB server if it's not already running:
-
-   ```sh
-   mongod
-   ```
-
-## Usage
-
-after one time installation, you can run the project by just one command:
+3. after installation run this command for run the project:
 
 ```bash
 npm start
@@ -55,6 +46,12 @@ This command will concurrently start the backend server and the frontend develop
 
 The backend server will run on http://localhost:5173.
 The frontend development server will run on http://localhost:3001.
+
+4. Start the MongoDB server if it's not already running:
+
+```sh
+mongod
+```
 
 ### Backend
 
